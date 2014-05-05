@@ -1,6 +1,6 @@
 <?php
 
-namespace Rixxi;
+namespace Rixxi\FormFactory;
 
 use Nette;
 
