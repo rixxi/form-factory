@@ -20,7 +20,7 @@ class FormFactory extends Nette\Object implements IFormFactory
 	 * Creates a form
 	 * @return Nette\Application\UI\Form
 	 */
-	public function createForm()
+	public function create()
 	{
 		$form = new Nette\Application\UI\Form;
 		$form->setTranslator($this->translator);

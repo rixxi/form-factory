@@ -13,7 +13,7 @@ interface IFormFactory
 	 * Creates a form
 	 * @return \Nette\Application\UI\Form
 	 */
-	function createForm();
+	function create();
 
 
 	/**
