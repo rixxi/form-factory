@@ -8,12 +8,12 @@ use Nette;
 
 class FormFactory extends Nette\Object implements IFormFactory
 {
+
 	/** @var \Nette\Localization\ITranslator */
 	private $translator;
 
 	/** @var \Nette\Forms\IFormRenderer */
 	private $renderer;
-
 
 
 	/**
@@ -30,7 +30,6 @@ class FormFactory extends Nette\Object implements IFormFactory
 	}
 
 
-
 	/**
 	 * Sets translate adapter.
 	 */
@@ -38,7 +37,6 @@ class FormFactory extends Nette\Object implements IFormFactory
 	{
 		$this->translator = $translator;
 	}
-
 
 
 	/**

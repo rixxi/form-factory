@@ -16,7 +16,6 @@ interface IFormFactory
 	function createForm();
 
 
-
 	/**
 	 * Sets translate adapter.
 	 */
